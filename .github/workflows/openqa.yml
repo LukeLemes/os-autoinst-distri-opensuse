@@ -8,7 +8,7 @@ on:
   # branch. This is necessary to allow accessing the API credential secrets.
   workflow_dispatch:
   workflow_run:
-    workflows: [checklist ci]
+    workflows: [ci]
     types:
       - completed
 env:
